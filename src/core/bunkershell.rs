@@ -3,7 +3,7 @@ use anyhow::{Context, Result};
 use tokio::runtime::Runtime;
 
 use crate::ai::llm_manager::LLMManager;
-use crate::base::input_processor::InputProcessor;
+use crate::core::input_processor::InputProcessor;
 
 /// Main BunkerShell struct that coordinates the shell's functionality
 pub struct BunkerShell {
